@@ -1,0 +1,47 @@
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+crossorigin="anonymous">
+
+<body >
+    <form class="form-signin">
+       <div class="checkbox mb-5"></div>
+        <div class= "text-center"><h1 class="h3 mb-3 font-weight-normal">Quiz Creator</h1> </div>
+        <h1 class="h5  font-weight-normal">To create a Question, fill the information below</h1>
+
+      <div class="checkbox mb-5"><input #newQuestion class="form-control" placeholder="Enter Question here" required autofocus></div>
+     
+      <!-- <div class="checkbox mb-2"><input class="form-control" placeholder="2nd Choice" required autofocus></div>
+      <div class="checkbox mb-2"><input class="form-control" placeholder="3rd Choice" required autofocus></div>
+      <div class="checkbox mb-5"><input class="form-control" placeholder="4rd Choice" required autofocus></div> -->
+
+      <h1 class="h5  font-weight-normal">Type 4 Possible Choices</h1>
+      <div class="checkbox mb-3 "><input #firstChoice class="form-control" placeholder="1st Choice" required autofocus></div>
+      <div class="checkbox mb-3"><input #secondChoice class="form-control" placeholder="2nd Choice" required autofocus></div>
+      <div class="checkbox mb-3"><input #thirdChoice class="form-control" placeholder="3rd Choice" required autofocus></div>
+      <div class="checkbox mb-3"><input #fourthChoice class="form-control" placeholder="4th Choice" required autofocus></div>
+
+      <h1 class="h5  font-weight-normal">Specify which Choice is the correct one (type first, second, third or fourth)</h1>
+
+      <!-- <div class="checkbox mb-5 text-center">
+      <select id="cars" onchange = "myNewFunction(this);">
+        <option  >select</option>
+        <option  value="volvo">1st Choice</option>
+        <option  value="saab">2nd Choice</option>
+        <option  value="opel">3rd Choice</option>
+        <option  value="audi">4th Choice</option>
+      </select>
+    </div> -->
+
+    <div class="checkbox mb-3"><input #correctAnswer class="form-control" placeholder="Enter Correct Choice" required autofocus></div>
+
+    
+    
+
+
+      <a class="btn btn-lg btn-warning btn-block" routerLink = "/home-page" (click) = "create(newQuestion.value, firstChoice.value, secondChoice.value, thirdChoice.value, fourthChoice.value, correctAnswer.value)">Create Question</a>
+
+
+      <p class="mt-5 mb-3 text-center text-muted">&copy;  Rami Moubayed - 2020</p>
+    </form>
+  </body>

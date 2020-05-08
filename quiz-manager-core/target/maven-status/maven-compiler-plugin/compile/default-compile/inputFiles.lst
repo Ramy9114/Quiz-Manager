@@ -1,0 +1,13 @@
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/business/ExamDataService.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/dao/QuestionDAO.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/business/ExamBusinessException.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/dao/UserDAO.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/datamodel/Answer.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/dao/GenericDAO.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/business/QuizCreatorDataService.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/dao/MCQChoiceDAO.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/business/BusinessException.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/services/dao/AnswerDAO.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/datamodel/User.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/datamodel/MCQChoice.java
+/Users/ramimoubayed/AdvancedJava/quiz-manager-core/src/main/java/fr/epita/quiz/datamodel/Question.java

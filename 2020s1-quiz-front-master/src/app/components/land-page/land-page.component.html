@@ -1,0 +1,22 @@
+<link rel="stylesheet" 
+href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+crossorigin="anonymous">
+
+<body class="text-center">
+    <form class="form-signin">
+      
+      <div class="checkbox mb-5"></div>
+      <img class="mb-4" src="https://pngimage.net/wp-content/uploads/2018/06/quiz-logo-png-7.png">
+      <h1 class="h3 mb-3 font-weight-normal">Welcome to the Quiz App</h1>
+      <h1 class="h5 mb-3 font-weight-normal">Before we begin, please give this exam a name.</h1>
+      <div class="checkbox mb-4">
+      <input #examName class="form-control" placeholder="Exam name" required autofocus>
+      </div>
+
+      <a class="btn btn-lg btn-primary btn-block" (click) = "createExam(examName.value)" routerLink = "/home-page" routerLinkActive= "active">Submit</a>
+
+
+      <p class="mt-5 mb-3 text-muted">&copy;  Rami Moubayed - 2020</p>
+    </form>
+  </body>
